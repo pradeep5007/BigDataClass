@@ -12,7 +12,7 @@ library(zoo) # For time series manipulation
 
 # Read in 2009-10 data for US. The first 11 rows of
 # this dataset is a description of what it is
-Dataset <- read.csv("Day_1/Trends.csv", 
+Dataset <- read.csv("Week_1/Trends.csv", 
                     header=TRUE)
 
 # Coerce the column to behave like a Date type
