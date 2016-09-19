@@ -3,7 +3,7 @@ library(tm)
 library(wordcloud)
 library(RColorBrewer)
 
-searchString <- "Kaveri"
+searchString <- "Prajesh"
 if(!exists("searches")) {
   searches <- searchTwitter(searchString, 
                             resultType="recent", 
