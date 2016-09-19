@@ -130,7 +130,7 @@ plot(MonthlyCloses$Software2 ~
 # Box plot
 par(mfrow=c(1,1))
 
-boxplot(MonthlyCloses$FMCG,
+boxplot(MonthlyCloses$Infrastructure,
         horizontal=TRUE,
         main="Housing stock movement",
         col="orange")
