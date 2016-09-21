@@ -11,7 +11,7 @@ library(moments)  # For skew calculations
 library(lattice)  # Use trellis graphics
 
 # Read in the Salaries dataset
-Metro <- read.csv("HRSalaries.csv", header=TRUE)
+Metro <- read.csv("edx/HR_Analytics/HRSalaries.csv", header=TRUE)
 
 colnames(Metro) <- c("EmployeeID", 
                      "Title", 
