@@ -20,9 +20,6 @@ cat("Created NewStocks.csv in",getwd(), "\n","You may open it as a spreadsheet!\
 monthYearAvePharma <- aggregate(Pharma ~ Month + Year,data=Stocks,FUN=mean)
 View(monthYearAvePharma) 
 
-monthYearAvePharma <- aggregate(Steel ~ Month + Year,data=Stocks,FUN=mean)
-View(monthYearAvePharma) 
-
 mean(Stocks$Steel)
 
 par(mfrow=c(1,2))
