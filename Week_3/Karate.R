@@ -2,7 +2,7 @@
 library(igraph)
 
 # Ready edge information from a file
-Edges <- read.csv("karate.csv", header=TRUE)
+Edges <- read.csv("Week_3/karate.csv", header=TRUE)
 
 # Construct the graph
 Karate <- graph.data.frame(Edges, 
