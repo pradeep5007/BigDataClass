@@ -14,3 +14,4 @@ print(adj)
 # Nodes 2 & 4 are in Module 2
 membership <- c(1,2,1,2,1)
 print(modularity(g, membership))
+
